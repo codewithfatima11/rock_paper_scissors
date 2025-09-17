@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fatima's Portfolio - Home</title>
+<style>
+  body { font-family: 'Poppins', Arial, sans-serif; margin: 0; padding: 0; background: #0d0d0d; color: #fff; text-align: center; }
+  nav { background: #111; display: flex; justify-content: center; gap: 30px; padding: 1rem; border-bottom: 2px solid #ff3399; }
+  nav a { color: #fff; text-decoration: none; font-weight: 600; position: relative; transition: 0.3s; }
+  nav a::after { content: ''; position: absolute; width: 0; height: 2px; left: 0; bottom: -5px; background: #ff3399; transition: 0.3s; }
+  nav a:hover::after { width: 100%; }
+  header { background: linear-gradient(135deg,#f15fa8,#ff7300); padding: 3rem 1rem; }
+  header h1 { font-size: 3rem; margin-bottom: 0.5rem; text-shadow: 2px 2px 5px #000; }
+  header p { font-size: 1.2rem; color: #f0f0f0; }
+  .illustration { width: 250px; border-radius: 20px; margin: 30px 0; }
+  .start-button { background: linear-gradient(135deg,#ff3399,#ff5e00); border: none; color: #fff; font-size: 1.5rem; font-weight: bold; padding: 20px 40px; border-radius: 12px; cursor: pointer; transition: 0.3s; }
+  .start-button:hover { transform: scale(1.1); }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="rock_paper_scissors.html">Play Game</a>
+  <a href="login_signup.html">Login / Signup</a>
+</nav>
+
+<header>
+  <h1>Welcome to this Game!</h1>
+  <p>Made with CSS & HTML</p>
+</header>
+
+<img src="WhatsApp Image 2025-09-15 at 16.26.37_b64e8ea7.jpg" alt="Fun Cartoon" class="illustration">
+
+<hr>
+<br>
+<!-- Start Game Button -->
+<button class="start-button" onclick="location.href='rock_paper_scissors.html'">
+  Start Rock-Paper-Scissors 🎮
+</button>
+<br>
+<br>
+<br>
+<hr>
+</body>
+</html>
